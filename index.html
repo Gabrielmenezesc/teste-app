@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaúdeLembrete - Tecnologia que Cuida de Quem Cuida</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="./src/landing.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i data-lucide="heart" style="color: var(--accent); fill: var(--accent);"></i>
+                SaúdeLembrete
+            </a>
+            <nav class="nav-links">
+                <a href="#problema">O Problema</a>
+                <a href="#solucao">A Solução</a>
+                <a href="#funcionalidades">Funcionalidades</a>
+                <a href="#beneficios">Benefícios</a>
+            </nav>
+            <a href="#contato" class="btn btn-primary">Fale com um Especialista</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1>Tecnologia que <span class="text-primary">Cuida</span> de Quem Cuida</h1>
+                <p>O primeiro assistente digital desenvolvido especificamente para multiplicar a eficiência de Agentes
+                    Comunitários de Saúde e erradicar o papel de vez.</p>
+                <div class="hero-buttons">
+                    <a href="#solucao" class="btn btn-primary">Conheça a Plataforma</a>
+                    <a href="./app.html" target="_blank" class="btn btn-outline">Testar Protótipo Interativo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <iframe src="./app.html" title="Protótipo SaúdeLembrete"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problema -->
+    <section id="problema" style="background: white;">
+        <div class="container">
+            <h2 class="section-title">O Desafio na Gestão Pública</h2>
+            <p class="section-subtitle">A rotina analógica custa tempo, dinheiro e diminui a qualidade do atendimento à
+                população.</p>
+
+            <div class="grid-3">
+                <div class="card">
+                    <div class="icon-wrapper icon-orange">
+                        <i data-lucide="file-warning"></i>
+                    </div>
+                    <h3>Registros Manuais</h3>
+                    <p>Agentes lidam com dezenas de visitas diárias usando pranchetas, resultando em dados perdidos ou
+                        ilegíveis.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-wrapper icon-orange">
+                        <i data-lucide="clock"></i>
+                    </div>
+                    <h3>Desperdício de Tempo</h3>
+                    <p>Horas gastas cruzando a cidade em rotas mal planejadas, reduzindo o número de famílias atendidas
+                        por turno.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-wrapper icon-orange">
+                        <i data-lucide="alert-circle"></i>
+                    </div>
+                    <h3>Risco de Esquecimentos</h3>
+                    <p>Sem alertas automáticos, pacientes crônicos ou prioritários (como gestantes) podem acabar
+                        desassistidos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solução & Funcionalidades -->
+    <section id="solucao" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="grid-2">
+                <div>
+                    <h2 class="section-title" style="text-align: left;">A Solução Definitiva</h2>
+                    <p class="text-muted mb-4" style="font-size: 18px;">Um assistente digital leve, que funciona offline
+                        e organiza o trabalho do agente municipal de ponta a ponta.</p>
+
+                    <ul class="feature-list">
+                        <li>
+                            <div class="check"><i data-lucide="check"></i></div>
+                            <div>
+                                <h4>Agenda Inteligente</h4>
+                                <p class="text-muted">Cronograma claro e flexível das tarefas do dia.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="check"><i data-lucide="check"></i></div>
+                            <div>
+                                <h4>Rotas Otimizadas (Smart Route)</h4>
+                                <p class="text-muted">Navegação sequencial que economiza combustível e esforço físico.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="check"><i data-lucide="check"></i></div>
+                            <div>
+                                <h4>Lembretes Personalizados</h4>
+                                <p class="text-muted">Notificações automáticas para casos que exigem atenção imediata.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div style="text-align: center;">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="Profissionais de Saúde"
+                        style="border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios para a Gestão -->
+    <section id="beneficios">
+        <div class="container">
+            <h2 class="section-title">Benefícios para a Gestão Pública</h2>
+            <p class="section-subtitle">Resultados visíveis nos primeiros 30 dias de uso pelas secretarias de saúde.</p>
+
+            <div class="grid-3">
+                <div class="card" style="border-top: 4px solid var(--secondary);">
+                    <div class="icon-wrapper icon-green">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <h3>Mais Eficiência</h3>
+                    <p>Aumento de até 40% na cobertura de visitas domiciliares com o mesmo tamanho de equipe usando
+                        rotas inteligentes.</p>
+                </div>
+                <div class="card" style="border-top: 4px solid var(--primary);">
+                    <div class="icon-wrapper icon-blue">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3>Menos Erros</h3>
+                    <p>Digitalização na fonte. Fim das perdas de histórico e do retrabalho na digitação das fichas SUS.
+                    </p>
+                </div>
+                <div class="card" style="border-top: 4px solid var(--accent);">
+                    <div class="icon-wrapper icon-orange">
+                        <i data-lucide="heart-handshake"></i>
+                    </div>
+                    <h3>Impacto Social</h3>
+                    <p>Mais cuidado e atenção aos munícipes. O agente foca na saúde e no diálogo, não na burocracia do
+                        papel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Parceria -->
+    <section id="contato" style="padding-bottom: 0;">
+        <div class="container mb-4">
+            <div class="highlight-box">
+                <h2 style="font-size: 36px; font-weight: 800; margin-bottom: 16px;">Vamos Fazer Parceria?</h2>
+                <p style="font-size: 20px; opacity: 0.9; margin-bottom: 40px;">Licenciamento escalável por município,
+                    com suporte contínuo e versão Premium com relatórios integrados.</p>
+                <button class="btn btn-accent" style="font-size: 18px; padding: 16px 32px;"
+                    onclick="alert('Funcionalidade de contato em desenvolvimento. Explore o protótipo do app no botão inicial!')">Solicitar
+                    Orçamento para o seu Município</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">
+                        <i data-lucide="heart" style="color: var(--accent); fill: var(--accent);"></i>
+                        SaúdeLembrete
+                    </div>
+                    <p class="footer-text">Transformando o trabalho dos agentes de saúde com tecnologia intuitiva,
+                        ajudando municípios a levar mais saúde e confiança para todos.</p>
+                </div>
+                <div>
+                    <div class="footer-links">
+                        <h4>Produto</h4>
+                        <ul>
+                            <li><a href="#funcionalidades">Funcionalidades</a></li>
+                            <li><a href="#beneficios">Benefícios</a></li>
+                            <li><a href="./app.html" target="_blank">Testar App (Beta)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="footer-links">
+                        <h4>Modelo de Negócio</h4>
+                        <ul>
+                            <li><a href="#">Licenciamento B2B</a></li>
+                            <li><a href="#">Suporte Contínuo</a></li>
+                            <li><a href="#">Relatórios Premium</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 SaúdeLembrete. Todos os direitos reservados. Fictício para fins de demonstração.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
